@@ -1,0 +1,17 @@
+{
+  "name": "campus-lost-and-found",
+  "version": "0.1.0",
+  "description": "Simple web board for posting lost and found items on campus",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Lost & Found</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Campus Lost &amp; Found</h1>
+  </header>
+
+  <main>
+    <h2>Post an item</h2>
+    <form id="post-form" novalidate>
+      <fieldset>
+        <legend>What happened?</legend>
+        <label><input type="radio" name="type" value="lost"> I lost something</label>
+        <label><input type="radio" name="type" value="found"> I found something</label>
+      </fieldset>
+
+      <label for="title">Title *</label>
+      <input id="title" name="title" type="text" maxlength="100" placeholder="e.g. Black water bottle">
+
+      <label for="category">Category *</label>
+      <select id="category" name="category">
+        <option value="">Choose a category</option>
+      </select>
+
+      <label for="description">Description</label>
+      <textarea id="description" name="description" rows="3" maxlength="500"></textarea>
+
+      <label for="location">Location</label>
+      <input id="location" name="location" type="text" maxlength="100" placeholder="e.g. Library, 2nd floor">
+
+      <label for="date">Date</label>
+      <input id="date" name="date" type="date">
+
+      <button type="submit">Post</button>
+    </form>
+
+    <div id="message" role="alert" hidden></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
