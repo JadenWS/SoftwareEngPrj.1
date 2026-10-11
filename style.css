@@ -1,0 +1,15 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f5f6f8; color: #222; }
+header { background: #1f3a68; color: #fff; padding: 1rem 1.5rem; }
+header h1 { margin: 0; font-size: 1.4rem; }
+main { max-width: 520px; margin: 1.5rem auto; padding: 0 1rem; }
+form { background: #fff; padding: 1.25rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+label { display: block; margin-top: .9rem; font-weight: 600; }
+fieldset { border: 1px solid #ccd; border-radius: 6px; }
+fieldset label { display: inline-block; margin-right: 1rem; font-weight: 400; }
+input[type=text], input[type=date], select, textarea { width: 100%; box-sizing: border-box; padding: .5rem; margin-top: .3rem; border: 1px solid #bbc; border-radius: 4px; font: inherit; }
+button { margin-top: 1.2rem; padding: .6rem 1.4rem; background: #1f3a68; color: #fff; border: 0; border-radius: 4px; font: inherit; cursor: pointer; }
+button:hover { background: #2b4f8f; }
+#message { margin-top: 1rem; padding: .8rem 1rem; border-radius: 6px; }
+#message.error { background: #fde8e8; color: #8a1c1c; }
+#message.success { background: #e5f6e8; color: #1d6a2b; }
+#message ul { margin: 0; padding-left: 1.2rem; }
